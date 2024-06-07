@@ -1,9 +1,9 @@
 {
   "editor.bracketPairColorization.enabled": true,
   "editor.cursorBlinking": "solid",
-  "editor.fontFamily": "ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace",
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
   "editor.fontLigatures": false,
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.lineNumbers": "on",
@@ -16,8 +16,7 @@
   "explorer.openEditors.visible": 1,
   "files.autoSave": "off",
   "screencastMode.onlyKeyboardShortcuts": true,
-  "terminal.integrated.fontSize": 16,
-  "workbench.activityBar.visible": true,
+  "terminal.integrated.fontSize": 14,
   "workbench.colorTheme": "Quiet Light",
   "workbench.fontAliasing": "antialiased",
   "workbench.statusBar.visible": true,
@@ -25,5 +24,6 @@
   "prettier.enable": true,
   "eslint.alwaysShowStatus": false,
   "liveServer.settings.donotVerifyTags": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on"
 }
