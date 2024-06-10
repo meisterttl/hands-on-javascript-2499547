@@ -50,7 +50,7 @@ async function displayData(location, units) {
       errorMsg.innerHTML = "Something went wrong. Try again.";
       console.error("Location query error:", error);
     });
-
+  console.log("Current Location: ", currentLoc);
   if (currentLoc) {
     fetch(
       `https://api.openweathermap.org/data/2.5/weather?lat=${currentLoc[0].lat}&lon=${currentLoc[0].lon}&APPID=${settings.appid}`

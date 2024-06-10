@@ -9,6 +9,7 @@
 .loader::before {
   content: "";
   box-sizing: border-box;
+  height: 0px;
   position: absolute;
   inset: 0px;
   border-radius: 50%;
